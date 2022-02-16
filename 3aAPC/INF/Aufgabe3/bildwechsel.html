@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bildwechsel</title>
+    
+    <script type="text/javascript">
+         window.onload=function() {
+         document.images[0].src="images/b3.jpg";
+         document.getElementById("b1").onmouseover=function() {
+         document.images[0].src="images/b1.jpg";
+         }
+         document.getElementById("b1").onmouseout=function() {
+         document.images[0].src="images/b2.jpg";
+         }
+         }
+         </script>
+</head>
+<body>
+    <h3>onmouseover und onmouseout</h3>
+    <img alt="Grafikwechsel" title="Grafikwechsel" id="b1" />
+</body>
+</html>
