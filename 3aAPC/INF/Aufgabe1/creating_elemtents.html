@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Elements</title>
+</head>
+<body>
+    <h1>Erstellen von DOM-Elementen</h1>
+    <script>
+        var bildquelle = document.createAttribute("src");
+        bildquelle.nodeValue = "https://cdn.pixabay.com/photo/2013/11/28/10/03/river-219972_1280.jpg";
+        var alternativtext = document.createAttribute("alt");
+        alternativtext.nodeValue = "Am Fluss";
+        var titel = document.createAttribute("title");
+        titel.nodeValue = "An der Elbe";
+        var b1 = document.createElement("img");
+        b1.setAttributeNode(bildquelle);
+        b1.setAttributeNode(alternativtext);
+        b1.setAttributeNode(titel);
+        var u2 = document.createElement("h2");
+        var text = document.createTextNode(
+        "Erstellen von Knoten mit Methoden von document");
+        u2.appendChild(text);
+        document.getElementsByTagName("body")[0].appendChild(u2);
+        document.getElementsByTagName("body")[0].appendChild(b1);
+ </script> 
+</body>
+    </script>
+</body>
+</html>
