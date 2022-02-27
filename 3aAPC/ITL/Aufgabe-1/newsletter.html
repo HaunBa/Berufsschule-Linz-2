@@ -14,22 +14,22 @@
             <tbody>
                 <tr>
                   <td>Vorname</td>
-                  <td><input type="text" name="textInput" id="vname"></td>
+                  <td><input type="text" class="input" name="vname" id="vname"></td>
                 </tr>
                 <tr>
                     <td>Nachname</td>
-                    <td><input type="text" name="textInput" id="nname"></td>
+                    <td><input class="input" type="text" name="nname" id="nname"></td>
                 </tr>
                 <tr>
                     <td>E-Mail-Adresse</td>
-                    <td><input type="text" name="textInput" id="email"></td>
+                    <td><input class="input"type="text" name="email" id="email"></td>
                 </tr>
               </tbody>            
         </table>
         <br>
         Wie sind Sie auf uns aufmerksam geworden?
         <br>
-        <select id="dropdown1">
+        <select class="input" id="attention" name="attention">
             <option>Freunde</option>
             <option>Zeitschrift</option>
             <option>Internet</option>
@@ -39,18 +39,18 @@
         <br>
         Wann haben Sie Ihren nächsten Urlaub geplant?
         <br>
-        <input type="radio" name="vacation" value="1-3_months" checked>in ca. 1-3 Monaten
+        <input class="input" type="radio" name="vacation" value="1-3_months" checked>in ca. 1-3 Monaten
         <br>
-        <input type="radio" name="vacation" value="6_months">in ca. 6 Monaten
+        <input class="input"type="radio" name="vacation" value="6_months">in ca. 6 Monaten
         <br>
-        <input type="radio" name="vacation" value="next_year">in diesem Jahr nichtmehr
+        <input class="input"type="radio" name="vacation" value="next_year">in diesem Jahr nichtmehr
         <br>
         <br>
         Wenn Sie uns etwas mitteilen möchten, so finden Sie hier Platz dafür:
         <br>
-        <textarea id="txt_response" cols="50" rows="5"></textarea>
+        <textarea class="input" name="additional_Info" id="txt_response" cols="50" rows="5"></textarea>
         <br>
-        <input id="submit" onclick="submit()" type="submit" value="Abschicken">
+        <input class="input"  name="submit" id="submit" onclick="submit()" type="submit" value="Abschicken">
     </form>
     <div id="logs">
 

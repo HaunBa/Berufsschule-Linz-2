@@ -2,6 +2,13 @@ var saveErrors = "";
 
 window.onload = function(){
     document.getElementById("submit").onclick = submit;
+
+    document.querySelectorAll('.input').forEach(item => {
+        item.addEventListener('mouseover', event => {
+          addOnMouseOver(event);
+          console.log("added");
+        })
+      })
 }
 
 function submit() {
@@ -11,19 +18,39 @@ function submit() {
     var txt_nname = document.getElementById("nname");
     var txt_email = document.getElementById("email");
 
-    if (txt_vname.value == txt_nname.value) {
-        AddError("First name cant be the same as the last name.");
+    if (txt_vname.value == "") 
+    {
+        AddError("Vorname darf nicht leer sein");
+        errors++;    
+    }
+    if (txt_nname.value == "") 
+    {
+        AddError("Nachname darf nicht leer sein");
+        errors++;    
+    }
+    if (txt_vname.value == txt_nname.value && txt_vname.value != "") {
+        AddError("Vor und Nachname dürfen nicht identisch sein.");
+        errors++;
+    }
+    if (txt_email.value == "") 
+    {
+        AddError("Email darf nicht leer sein");   
         errors++;
     }else if (checkEmailAdress(txt_email.value) == false) {
-        AddError("Email adress is invalid.");
+        AddError("Email adresse ist ungültig");
         errors++;
-    }else{
-        alert("All good");
     }
-
+    
     if (errors != 0) {
-        event.defaultPrevented();
+        return false;
     }
+}
+
+function addOnMouseOver(evt){
+    var text = "Der Mauszeiger befindet sich über dem Eingabefeld " + evt.target.name;
+
+    saveErrors += text + "<br>";
+    document.getElementById("logs").innerHTML = saveErrors;
 }
 
 function AddError(errorText) {
