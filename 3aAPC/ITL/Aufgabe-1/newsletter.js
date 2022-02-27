@@ -4,19 +4,18 @@ window.onload = function(){
 
 function submit() {
     var saveErrors = "";
-    var inputs = document.getElementsByName("textInput");
-    inputs.forEach(element => {
-        if (element.value == "") {
-            alert(element.name + " | Eingabe falsch");
-            AddError("Text eingeben");
-        }else if(element.name == "email"){
-            if (checkEmailAdress(element.value) == true) {                
-                AddError("Email not valid");
-            }
-        }else{
-            alert("everything ok");
-        }
-    });
+
+    var txt_vname = document.getElementById("vname");
+    var txt_nname = document.getElementById("nname");
+    var txt_email = document.getElementById("email");
+
+    if (txt_vname.value == txt_nname.value) {
+        AddError("First name cant be the same as the last name.");
+    }else if (checkEmailAdress(txt_email.value) == false) {
+        AddError("Email adress is invalid.");
+    }else{
+        alert("All good");
+    }
 }
 
 function AddError(errorText) {
@@ -26,11 +25,11 @@ function AddError(errorText) {
     p.appendChild(text);
     document.getElementById("logs")[0].appendChild(p);
     
-    //saveErrors += errorText + "<br>";
-    //document.getElementById("logs").innerHTML = saveErrors;
+    saveErrors += errorText + "<br>";
+    document.getElementById("logs").innerHTML = saveErrors;
 }
 
 function checkEmailAdress(value) {
-    var suche = /^[\w\.\-]{2,}\@[äöüa-z0-9\-\.]{1,}\.[a-z]{2,4}$/i;
-    return suche.test(value);
+    var re = /\S+@\S+\.\S+/;
+    return re.test(email);
 }
