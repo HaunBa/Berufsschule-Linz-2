@@ -2,7 +2,7 @@ window.onload = function () { getStateOfSwitch();  }
 
 
 function getStateOfSwitch() {
-    if (document.getElementById('switchInput').checked == true) {
+    if (document.getElementById('switchInput').checked == false) {
         document.getElementById('list').style.display = 'none';
         document.getElementById('blogtable').style.display = 'inline';
     } else {
