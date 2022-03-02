@@ -1,0 +1,16 @@
+C:\Users\kendo\OneDrive\OneNote Notizbücher\GitHub\Berufsschule-Linz-2\3aAPC\ITL\Cs-Projekte\Aufgabe3\bin\Debug\net5.0\Aufgabe3.exe
+C:\Users\kendo\OneDrive\OneNote Notizbücher\GitHub\Berufsschule-Linz-2\3aAPC\ITL\Cs-Projekte\Aufgabe3\bin\Debug\net5.0\Aufgabe3.deps.json
+C:\Users\kendo\OneDrive\OneNote Notizbücher\GitHub\Berufsschule-Linz-2\3aAPC\ITL\Cs-Projekte\Aufgabe3\bin\Debug\net5.0\Aufgabe3.runtimeconfig.json
+C:\Users\kendo\OneDrive\OneNote Notizbücher\GitHub\Berufsschule-Linz-2\3aAPC\ITL\Cs-Projekte\Aufgabe3\bin\Debug\net5.0\Aufgabe3.runtimeconfig.dev.json
+C:\Users\kendo\OneDrive\OneNote Notizbücher\GitHub\Berufsschule-Linz-2\3aAPC\ITL\Cs-Projekte\Aufgabe3\bin\Debug\net5.0\Aufgabe3.dll
+C:\Users\kendo\OneDrive\OneNote Notizbücher\GitHub\Berufsschule-Linz-2\3aAPC\ITL\Cs-Projekte\Aufgabe3\bin\Debug\net5.0\ref\Aufgabe3.dll
+C:\Users\kendo\OneDrive\OneNote Notizbücher\GitHub\Berufsschule-Linz-2\3aAPC\ITL\Cs-Projekte\Aufgabe3\bin\Debug\net5.0\Aufgabe3.pdb
+C:\Users\kendo\OneDrive\OneNote Notizbücher\GitHub\Berufsschule-Linz-2\3aAPC\ITL\Cs-Projekte\Aufgabe3\obj\Debug\net5.0\Aufgabe3.csproj.AssemblyReference.cache
+C:\Users\kendo\OneDrive\OneNote Notizbücher\GitHub\Berufsschule-Linz-2\3aAPC\ITL\Cs-Projekte\Aufgabe3\obj\Debug\net5.0\Aufgabe3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kendo\OneDrive\OneNote Notizbücher\GitHub\Berufsschule-Linz-2\3aAPC\ITL\Cs-Projekte\Aufgabe3\obj\Debug\net5.0\Aufgabe3.AssemblyInfoInputs.cache
+C:\Users\kendo\OneDrive\OneNote Notizbücher\GitHub\Berufsschule-Linz-2\3aAPC\ITL\Cs-Projekte\Aufgabe3\obj\Debug\net5.0\Aufgabe3.AssemblyInfo.cs
+C:\Users\kendo\OneDrive\OneNote Notizbücher\GitHub\Berufsschule-Linz-2\3aAPC\ITL\Cs-Projekte\Aufgabe3\obj\Debug\net5.0\Aufgabe3.csproj.CoreCompileInputs.cache
+C:\Users\kendo\OneDrive\OneNote Notizbücher\GitHub\Berufsschule-Linz-2\3aAPC\ITL\Cs-Projekte\Aufgabe3\obj\Debug\net5.0\Aufgabe3.dll
+C:\Users\kendo\OneDrive\OneNote Notizbücher\GitHub\Berufsschule-Linz-2\3aAPC\ITL\Cs-Projekte\Aufgabe3\obj\Debug\net5.0\ref\Aufgabe3.dll
+C:\Users\kendo\OneDrive\OneNote Notizbücher\GitHub\Berufsschule-Linz-2\3aAPC\ITL\Cs-Projekte\Aufgabe3\obj\Debug\net5.0\Aufgabe3.pdb
+C:\Users\kendo\OneDrive\OneNote Notizbücher\GitHub\Berufsschule-Linz-2\3aAPC\ITL\Cs-Projekte\Aufgabe3\obj\Debug\net5.0\Aufgabe3.genruntimeconfig.cache

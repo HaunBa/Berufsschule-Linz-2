@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\kendo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\kendo\\.nuget\\packages"
+    ]
+  }
+}
