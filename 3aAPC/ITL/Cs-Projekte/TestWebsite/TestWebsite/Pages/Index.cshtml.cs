@@ -1,0 +1,25 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace TestWebsite.Pages
+{
+    public class IndexModel : PageModel
+    {
+        private readonly ILogger<IndexModel> _logger;
+
+        public IndexModel(ILogger<IndexModel> logger)
+        {
+            _logger = logger;
+        }
+
+        public void OnGet()
+        {
+            Console.WriteLine("Test");
+        }
+
+        public void Btn_OnClick()
+        {
+            Console.WriteLine("Button click");
+        }
+    }
+}

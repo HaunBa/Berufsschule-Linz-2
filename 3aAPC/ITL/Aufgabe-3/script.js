@@ -18,7 +18,6 @@ function fillOptions(){
     opt.value = document.getElementById("theme-header").style.fontFamily;
     opt.innerHTML = document.getElementById("theme-header").style.fontFamily;
     fontFamilyOption.appendChild(opt);
-
 }
 
 function UpdateH2() {
@@ -37,4 +36,8 @@ function getStateOfSwitch() {
         document.getElementById('list').style.display = 'inline';
         document.getElementById('blogtable').style.display = 'none';
     }
+}
+
+function submit() {
+    UpdateH2();
 }
