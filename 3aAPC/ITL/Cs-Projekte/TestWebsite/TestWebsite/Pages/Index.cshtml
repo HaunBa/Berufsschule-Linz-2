@@ -7,5 +7,11 @@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <button onclick="Btn_OnClick">Click me :)</button>
+    <button onclick="click()">Click me :)</button>
 </div>
+
+<script>
+    function click(){
+        @Model.Btn_OnClick();
+    }
+</script>
