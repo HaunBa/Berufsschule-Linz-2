@@ -82,8 +82,9 @@ select *
 from producer
 where pro_id not in(select pro_id from article_producer); 
 
-select producer;
-
+show databases;
+select business;
+show tables;
 -- n)
 select pro_name
 from producer
