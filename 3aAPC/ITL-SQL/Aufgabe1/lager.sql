@@ -1,7 +1,4 @@
 show databases;
 
-use lager;
+use myarchery;
 
-select * from artikel;
-
--- a)
