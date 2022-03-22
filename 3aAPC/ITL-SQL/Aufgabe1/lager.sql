@@ -1,4 +1,9 @@
 show databases;
 
-use myarchery;
+use adresse;
 
+show tables;
+
+show create table plz;
+
+select * from plz;
