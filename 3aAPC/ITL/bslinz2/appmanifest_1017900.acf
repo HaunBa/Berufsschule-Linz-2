@@ -1,0 +1,42 @@
+"AppState"
+{
+	"appid"		"1017900"
+	"Universe"		"1"
+	"LauncherPath"		"C:\\Program Files (x86)\\Steam\\steam.exe"
+	"name"		"Age of Empires: Definitive Edition"
+	"StateFlags"		"4"
+	"installdir"		"AoEDE"
+	"LastUpdated"		"1647867384"
+	"UpdateResult"		"0"
+	"SizeOnDisk"		"12933552358"
+	"buildid"		"6464341"
+	"LastOwner"		"76561198867350345"
+	"BytesToDownload"		"10148328000"
+	"BytesDownloaded"		"10148328000"
+	"BytesToStage"		"12933552358"
+	"BytesStaged"		"12933552358"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1017901"
+		{
+			"manifest"		"4083202517487105206"
+			"size"		"12933552358"
+		}
+	}
+	"InstallScripts"
+	{
+		"1017901"		"installscript.vdf"
+	}
+	"SharedDepots"
+	{
+		"228987"		"228980"
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+}
