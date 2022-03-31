@@ -6,7 +6,17 @@ show tables;
 
 show create table plz;
 
-select * from plz
+select plz_nr from plz;
+
+select plz_nr from plz
 order by plz_id;
 
-delete from plz where plz_id >= 9;
+select * from plz where plz_nr = 4020 and ort_id is null;
+
+select plz_nr as "PLZ",
+		ort_name as "ORT",
+		str_name as "Strasse"
+		from ort natural join plz
+			natural join plz_strasse
+			natural join strasse
+		order by plz_nr, ort_name
