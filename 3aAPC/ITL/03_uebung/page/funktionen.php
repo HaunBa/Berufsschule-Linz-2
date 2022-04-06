@@ -72,12 +72,6 @@ function makeTable2($query, $array = null)
     while($row = $stmt->fetch(PDO::FETCH_NUM))
     {
         echo '<tr>';
-        /*foreach($row as $r)
-        {
-            echo '<td>'.$r.'</td>';
-        }
-        returnCheckbox($i, $row[0]);
-        $i++;*/
         echo '<td>'.$row[0].'</td>';
         echo '<td>'.$row[1].'</td>';
         echo '<td>';
@@ -87,6 +81,7 @@ function makeTable2($query, $array = null)
     echo '</tr>';
     echo '</table>';
 }
+
 function returnCheckbox($myName, $inputValue)
 {
     echo '<td>';
