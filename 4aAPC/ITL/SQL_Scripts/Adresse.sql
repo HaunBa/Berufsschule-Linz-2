@@ -36,3 +36,34 @@ select person_strasse_ort_plz.orpl_id,
 		person_strasse_ort_plz.str_id,
         person_strasse_ort_plz.per_id
 from person_strasse_ort_plz;
+
+/* 
+	Aufgabe: 
+    Ortsnamen mit e im Wortverlauf
+    Personen deren Vorname an 2. Stelle ein a enthält
+    Personen deren Nachname nicht auf r endet
+*/
+-- Ortsnamen mit e im Wortverlauf
+select ort_name
+from ort
+where ort_name LIKE '%e%';
+
+-- Personen deren Vorname an 2. Stelle ein a enthält
+select per_vname, per_nname
+from person
+where per_vname LIKE '_a%';
+
+-- Personen deren Nachname nicht auf r endet
+select per_vname, per_nname
+from person
+where per_nname NOT LIKE '%r';
+
+
+-- Inner JOIN
+select plz_nr as "PLZ",
+		ort_name as "Ort"
+from 	ort_plz inner join (plz, ort) using (plz_id, ort_id);
+
+
+
+-- 3) Anzahl der Personen die noch keiner Adresse zugeordnet wurden.
