@@ -1,0 +1,10 @@
+
+*.cache
+*.targets
+*.props
+4aAPC/PP/Kurs_ASP.NET/TestWebApi/TestWebApi/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+*.v2
+*.vsidx
+*.lock
+4aAPC/PP/Kurs_ASP.NET/TestWebApi/.vs/TestWebApi/v17/.suo
+*.editorconfig
