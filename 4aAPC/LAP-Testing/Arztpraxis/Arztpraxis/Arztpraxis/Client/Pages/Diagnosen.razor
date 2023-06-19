@@ -1,0 +1,49 @@
+﻿@page "/diagnosen"
+
+@inject HttpClient Http
+
+<h3>Diagnosen</h3>
+
+<MudContainer MaxWidth="MaxWidth.Large">
+    <MudCard>
+        <MudGrid Justify="Justify.Center">
+            <MudItem xs="6" xl="6" sm="6">
+                <MudText Typo="Typo.h3">Patienten Diagnosen</MudText>
+                <MudNumericField @bind-Value="SVNR" Min="1000" Max="9999" />
+                <MudText Typo="Typo.h3">Behandlungszeitraum</MudText>
+                <MudDatePicker @bind-Date="StartDate" />
+                <MudText hidden="@(StartDateValid)" Color="Color.Error">Startdatum ungültig</MudText>
+                <MudDatePicker @bind-Date="EndDate" />
+                <MudText hidden="@(EndDateValid)" Color="Color.Error">Enddatum ungültig</MudText>
+                <MudButton OnClick="@(() => GetDiagnoses())"><MudIcon Icon="@Icons.Material.Filled.Search"></MudIcon>Suchen</MudButton>
+            </MudItem>
+            @if (Termine != null)
+            {
+                @if (Termine.Count > 0)
+                {
+                    <MudItem xs="12" sm="12" md="12" lg="12" xl="12">
+                        <MudTable Items="Termine" Dense="true" Outlined="true" Hover="true" Striped="true">
+                            <HeaderContent>
+                                <MudTh>Diagnose</MudTh>
+                                <MudTh>Patient</MudTh>
+                                <MudTh>SVNR</MudTh>
+                            </HeaderContent>
+                            <RowTemplate>
+                                <MudTd DataLabel="Diagnose">@context.Diagnose.Name</MudTd>
+                                <MudTd DataLabel="Patient">@context.Patient.VName @context.Patient.NName</MudTd>
+                                <MudTd DataLabel="SVNR">@context.Patient.svnr</MudTd>
+                            </RowTemplate>
+                        </MudTable>
+                    </MudItem>
+                }
+                else
+                {
+                    <MudItem>
+                        <MudText Typo="Typo.h3">Nichts gefunden</MudText>
+                    </MudItem>
+                }
+            }
+
+        </MudGrid>
+    </MudCard>
+</MudContainer>

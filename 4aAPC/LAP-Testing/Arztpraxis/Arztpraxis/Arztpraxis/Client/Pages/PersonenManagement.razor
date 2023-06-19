@@ -1,0 +1,28 @@
+﻿@page "/Personen"
+
+@inject HttpClient Http
+
+<h3>Personen</h3>
+
+<MudCard>
+    <MudGrid>
+        <MudItem xs="12" xl="12" sm="12">
+            <MudTable Items="Personen">
+                <HeaderContent>
+                    <MudTh>Id</MudTh>
+                    <MudTh>Vname</MudTh>
+                    <MudTh>Nachname</MudTh>
+                    <MudTh>Geburtsdatum</MudTh>
+                    <MudTh>Svnr</MudTh>
+                </HeaderContent>
+                <RowTemplate>
+                    <MudTd DataLabel="Id">@context.Id</MudTd>
+                    <MudTd DataLabel="Name">@context.VName</MudTd>
+                    <MudTd DataLabel="Nachname">@context.NName</MudTd>
+                    <MudTd DataLabel="Geburtsdatum">@context.GebDatum</MudTd>
+                    <MudTd DataLabel="Svnr">@context.svnr</MudTd>
+                </RowTemplate>
+            </MudTable>
+        </MudItem>
+    </MudGrid>
+</MudCard>

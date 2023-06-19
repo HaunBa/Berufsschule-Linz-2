@@ -1,0 +1,14 @@
+C:\Users\Haunschmied.Bastian\Documents\GitHub\Berufsschule\4aAPC\LAP-Testing\Arztpraxis\Arztpraxis\Arztpraxis\Shared\bin\Debug\net6.0\Arztpraxis.Shared.deps.json
+C:\Users\Haunschmied.Bastian\Documents\GitHub\Berufsschule\4aAPC\LAP-Testing\Arztpraxis\Arztpraxis\Arztpraxis\Shared\bin\Debug\net6.0\Arztpraxis.Shared.runtimeconfig.json
+C:\Users\Haunschmied.Bastian\Documents\GitHub\Berufsschule\4aAPC\LAP-Testing\Arztpraxis\Arztpraxis\Arztpraxis\Shared\bin\Debug\net6.0\Arztpraxis.Shared.dll
+C:\Users\Haunschmied.Bastian\Documents\GitHub\Berufsschule\4aAPC\LAP-Testing\Arztpraxis\Arztpraxis\Arztpraxis\Shared\bin\Debug\net6.0\Arztpraxis.Shared.pdb
+C:\Users\Haunschmied.Bastian\Documents\GitHub\Berufsschule\4aAPC\LAP-Testing\Arztpraxis\Arztpraxis\Arztpraxis\Shared\obj\Debug\net6.0\Arztpraxis.Shared.csproj.AssemblyReference.cache
+C:\Users\Haunschmied.Bastian\Documents\GitHub\Berufsschule\4aAPC\LAP-Testing\Arztpraxis\Arztpraxis\Arztpraxis\Shared\obj\Debug\net6.0\Arztpraxis.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Haunschmied.Bastian\Documents\GitHub\Berufsschule\4aAPC\LAP-Testing\Arztpraxis\Arztpraxis\Arztpraxis\Shared\obj\Debug\net6.0\Arztpraxis.Shared.AssemblyInfoInputs.cache
+C:\Users\Haunschmied.Bastian\Documents\GitHub\Berufsschule\4aAPC\LAP-Testing\Arztpraxis\Arztpraxis\Arztpraxis\Shared\obj\Debug\net6.0\Arztpraxis.Shared.AssemblyInfo.cs
+C:\Users\Haunschmied.Bastian\Documents\GitHub\Berufsschule\4aAPC\LAP-Testing\Arztpraxis\Arztpraxis\Arztpraxis\Shared\obj\Debug\net6.0\Arztpraxis.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Haunschmied.Bastian\Documents\GitHub\Berufsschule\4aAPC\LAP-Testing\Arztpraxis\Arztpraxis\Arztpraxis\Shared\obj\Debug\net6.0\Arztpraxis.Shared.dll
+C:\Users\Haunschmied.Bastian\Documents\GitHub\Berufsschule\4aAPC\LAP-Testing\Arztpraxis\Arztpraxis\Arztpraxis\Shared\obj\Debug\net6.0\refint\Arztpraxis.Shared.dll
+C:\Users\Haunschmied.Bastian\Documents\GitHub\Berufsschule\4aAPC\LAP-Testing\Arztpraxis\Arztpraxis\Arztpraxis\Shared\obj\Debug\net6.0\Arztpraxis.Shared.pdb
+C:\Users\Haunschmied.Bastian\Documents\GitHub\Berufsschule\4aAPC\LAP-Testing\Arztpraxis\Arztpraxis\Arztpraxis\Shared\obj\Debug\net6.0\Arztpraxis.Shared.genruntimeconfig.cache
+C:\Users\Haunschmied.Bastian\Documents\GitHub\Berufsschule\4aAPC\LAP-Testing\Arztpraxis\Arztpraxis\Arztpraxis\Shared\obj\Debug\net6.0\ref\Arztpraxis.Shared.dll
