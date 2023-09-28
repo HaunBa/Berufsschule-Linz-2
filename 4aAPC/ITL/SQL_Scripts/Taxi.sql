@@ -1,6 +1,6 @@
 -- use correct databases
 show databases;
-use taxi;
+use MeetingApp;
 
 select u.Uhrzeit_Datum_Beignn, u.Uhrzeit_Datum_Ende, fa.vname, fa.nname, k.Kilometerstand_Beginn, k.Kilometerstand_Ende 
 from fahrt f

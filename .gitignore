@@ -8,3 +8,5 @@
 *.lock
 4aAPC/PP/Kurs_ASP.NET/TestWebApi/.vs/TestWebApi/v17/.suo
 *.editorconfig
+*\bin\*
+.vs

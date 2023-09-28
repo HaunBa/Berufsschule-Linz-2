@@ -1,0 +1,71 @@
+﻿@model Artikel_Hersteller.Models.Hersteller
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Hersteller</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.HerName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.HerName)
+        </dd>
+    </dl>
+    @if (Model.Arts.Count > 0)
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Arts.ToList()[0].ArtId)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Arts.ToList()[0].ArtName)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Arts)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ArtId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ArtName)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-artId="@item.ArtId" asp-route-herId="@Model.HerId">Edit</a> |
+                            <a asp-action="Details" asp-route-artId="@item.ArtId">Details</a> |
+                            <a asp-action="Delete" asp-route-artId="@item.ArtId">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }else
+    {
+        <div>
+            Keine Artikel vorhanden
+        </div>
+    }
+
+    <!-- https://davidshimjs.github.io/qrcodejs/ -->
+    <div id="qrcode"></div>
+    <script src="~/js/qrcode.min.js"></script>
+    <script type="text/javascript">
+        var qrcode = new QRCode(document.getElementById("qrcode"), "@Model.HerName");
+    </script>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.HerId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
